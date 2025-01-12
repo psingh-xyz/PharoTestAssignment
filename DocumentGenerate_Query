@@ -1,0 +1,19 @@
+"Create an instance of the documentation generator"
+docGen := PackageDocGenerator new.
+
+"Select a package to document"
+package := RPackageOrganizer default packageNamed: 'Collections-Strings'.
+
+"Generate the documentation"
+docGen setPackage: package.
+documentation := docGen generateDocumentation.
+
+"Show the documentation in Transcript"
+Transcript clear.
+Transcript show: documentation.
+
+"Optional: Save to file"
+'package-documentation.txt' asFileReference 
+    writeStream 
+    nextPutAll: documentation; 
+    close.
