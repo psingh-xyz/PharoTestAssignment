@@ -12,10 +12,10 @@ The provided scripts demonstrate:
 - **Documentation Generation**: Automated generation of detailed documentation for classes within a Pharo package, mimicking the JavaDoc documentation style.
 
 ## Files in this Repository
-- `HolloMatrix_query.st`: Playground script for encoding and decoding matrices (Question 1).
+- `HolloMatrix_query`: Playground script for encoding and decoding matrices (Question 1).
 - `MatrixRepresentation.st`: Complete Pharo script for matrix representation transformations (Question 1).
-- `MatrixTest_output.txt`: Output results for matrix transformation tests (Question 1).
-- `DocumentGenerate_Query.st`: Playground script for generating package documentation (Question 2).
+- `MatrixTest_output`: Output results for matrix transformation tests (Question 1).
+- `DocumentGenerate_Query`: Playground script for generating package documentation (Question 2).
 - `Documentation.st`: Full Pharo script to generate documentation for a specified package (Question 2).
 - `package-documentation.txt`: Generated documentation results (Question 2).
 
@@ -23,11 +23,11 @@ The provided scripts demonstrate:
 ### Matrix Representation Scripts
 To use the matrix transformation scripts:
 1. Load `MatrixRepresentation.st` into your Pharo image.
-2. Execute examples using the `HolloMatrix_query.st` script. You can verify the outputs by comparing them with the contents of `MatrixTest_output.txt`.
+2. Execute the `HolloMatrix_query` script in the playground. You can verify the outputs by comparing them with the contents of `MatrixTest_output`.
 
 ### Documentation Generation Scripts
 To generate documentation for a Pharo package:
 1. Load `Documentation.st` into your Pharo image.
-2. Run the script in `DocumentGenerate_Query.st` to generate documentation. The documentation will be output to `package-documentation.txt`.
+2. Run the script in `DocumentGenerate_Query` to generate documentation. The documentation will be output to `package-documentation.txt`.
 
 
