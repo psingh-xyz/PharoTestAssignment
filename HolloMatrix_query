@@ -1,0 +1,46 @@
+"Create a traditional matrix (4x5 matrix)"
+matrix := TraditionalMatrix new.
+matrix initializeWithRows: 4 columns: 5.
+
+"Initialize the GeeksForGeeks example matrix"
+matrix at: 1 at: 1 put: 0.
+matrix at: 1 at: 2 put: 0.
+matrix at: 1 at: 3 put: 3.
+matrix at: 1 at: 4 put: 0.
+matrix at: 1 at: 5 put: 4.
+
+matrix at: 2 at: 1 put: 0.
+matrix at: 2 at: 2 put: 0.
+matrix at: 2 at: 3 put: 5.
+matrix at: 2 at: 4 put: 7.
+matrix at: 2 at: 5 put: 0.
+
+matrix at: 3 at: 1 put: 0.
+matrix at: 3 at: 2 put: 0.
+matrix at: 3 at: 3 put: 0.
+matrix at: 3 at: 4 put: 0.
+matrix at: 3 at: 5 put: 0.
+
+matrix at: 4 at: 1 put: 0.
+matrix at: 4 at: 2 put: 2.
+matrix at: 4 at: 3 put: 6.
+matrix at: 4 at: 4 put: 0.
+matrix at: 4 at: 5 put: 0.
+
+"Print the original traditional matrix"
+Transcript show: '=== Original Traditional Matrix ==='; cr.
+Transcript show: matrix printString; cr.
+
+"Convert to hollow matrix representation"
+hollowMatrix := matrix toHollowMatrix.
+
+"Print the hollow matrix representation"
+Transcript show: '=== Hollow Matrix Representation ==='; cr.
+Transcript show: hollowMatrix printString; cr.
+
+"Convert back to traditional matrix to verify the conversion"
+traditionalMatrix := hollowMatrix toTraditionalMatrix.
+
+"Print the reconstructed traditional matrix"
+Transcript show: '=== Reconstructed Traditional Matrix ==='; cr.
+Transcript show: traditionalMatrix printString; cr.
