@@ -19,6 +19,14 @@ The provided scripts demonstrate:
 - `Documentation.st`: Full Pharo script to generate documentation for a specified package (Question 2).
 - `package-documentation.txt`: Generated documentation results (Question 2).
 
+## Additional Resources
+For visual representations and detailed changes, the following files are available:
+- `matrix.image`: Image file  the interface showcasing the matrix representation.
+- `matrix.changes`: Detailed changes for the matrix representation script.
+- `document.image`: Image file showcasing the interface of the documentation generator.
+- `document.changes`: Detailed changes for the documentation generator.
+Access these files [here](https://drive.google.com/drive/folders/1XnviaUGmzZ3gBhoTnXEEK_jiiwVvR_Fn?usp=drive_link).
+
 ## How to Use
 ### Matrix Representation Scripts
 To use the matrix transformation scripts:
