@@ -25,7 +25,7 @@ For visual representations and detailed changes, the following files are availab
 - `matrix.changes`: Detailed changes for the matrix representation script.
 - `document.image`: Image file showcasing the interface of the documentation generator.
 - `document.changes`: Detailed changes for the documentation generator.
-Access these files [here](https://drive.google.com/drive/folders/1XnviaUGmzZ3gBhoTnXEEK_jiiwVvR_Fn?usp=drive_link).
+Access these files at the [Google Drive](https://drive.google.com/drive/folders/1XnviaUGmzZ3gBhoTnXEEK_jiiwVvR_Fn?usp=drive_link).
 
 ## How to Use
 ### Matrix Representation Scripts
